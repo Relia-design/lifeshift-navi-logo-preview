@@ -1297,3 +1297,219 @@ body { font-size: 18px; line-height: 1.85; }
 
 /* Desktop sentence break without adding paragraph spacing. */
 @media(min-width:541px){.article .intro-hero .intro-plain-copy::before{content:"\A";white-space:pre}}
+
+/* 2026-11-13: 個別相談会の見出しを目次と同じ青に統一。以前のh2一括黒指定を上書き */
+.article .benefit-notice h2 { color: #0756a2 !important; }
+
+
+/* 2026-11-13: ご利用の流れをスマホでは横長カード4枚の縦並びに変更 */
+.usage-guide-mobile { display: none; margin: 16px 0 24px; }
+.usage-step-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.usage-step-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 140px;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  border: 2px solid #cfe1f1;
+  border-radius: 0;
+  background: #fff;
+}
+.usage-step-card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 0;
+}
+.usage-step-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 104px;
+  min-height: 40px;
+  padding: 0 16px;
+  margin-bottom: 18px;
+  border-radius: 999px;
+  background: #f6a000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: .02em;
+}
+.usage-step-card__body { min-width: 0; }
+.usage-step-card__body h3 {
+  margin: 0 0 18px;
+  color: #0756a2;
+  font-size: 28px;
+  line-height: 1.25;
+  font-weight: 800;
+}
+.article .usage-step-card__body p {
+  margin: 0;
+  color: #5e6777;
+  font-size: 17px;
+  line-height: 1.65;
+  font-weight: 700;
+}
+.usage-step-card__illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  min-height: 100%;
+}
+.usage-step-card__illustration img {
+  display: block;
+  width: 100%;
+  max-width: 132px;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+@media (max-width: 540px) {
+  .article .usage-guide-chart--desktop { display: none; }
+  .usage-guide-mobile { display: block; }
+  .usage-step-list { gap: 12px; }
+  .usage-step-card {
+    grid-template-columns: minmax(0, 1fr) 118px;
+    gap: 14px;
+    padding: 16px 14px;
+  }
+  .usage-step-badge {
+    min-width: 102px;
+    min-height: 38px;
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  .usage-step-card__body h3 {
+    margin-bottom: 14px;
+    font-size: 25px;
+  }
+  .article .usage-step-card__body p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .usage-step-card__illustration img { max-width: 108px; }
+}
+@media (max-width: 390px) {
+  .usage-step-card {
+    grid-template-columns: minmax(0, 1fr) 98px;
+    gap: 10px;
+    padding: 14px 10px;
+  }
+  .usage-step-badge {
+    min-width: 92px;
+    min-height: 34px;
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+  .usage-step-card__body h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .article .usage-step-card__body p {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+  .usage-step-card__illustration img { max-width: 90px; }
+}
+
+/* 2026-11-13: ファーストビュー見出し 3行＋根拠注釈 */
+.article .intro-main-title .intro-stat-line {
+  display: block;
+  margin: 0;
+  color: #194c78;
+  font-size: 30px;
+  line-height: 1.28;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+.article .intro-main-title .intro-stat-line sup {
+  font-size: .55em;
+  vertical-align: super;
+  line-height: 0;
+}
+.article .intro-hero .intro-main-title {
+  margin-bottom: 4px !important;
+  padding-bottom: 0 !important;
+  border-bottom: 0 !important;
+}
+.article .intro-hero .intro-stat-note {
+  margin: 0 0 10px;
+  color: #555;
+  font-size: 10px;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 540px) {
+  .article .intro-main-title .intro-stat-line { font-size: 26px; line-height: 1.3; }
+  .article .intro-hero .intro-stat-note { font-size: 10px; line-height: 1.55; margin-bottom: 8px; }
+}
+
+/* 冒頭3行の見出しは変更前と同じサイズに復元し、注釈をCTA注釈と統一 */
+.article .intro-main-title .intro-eyebrow,
+.article .intro-main-title .intro-stat-line,
+.article .intro-main-title .intro-guide-name { font-size: 30px; }
+.article .intro-hero .intro-stat-note { font-size: 12px; line-height: 1.8; }
+@media (max-width: 540px) {
+  .article .intro-main-title .intro-eyebrow,
+  .article .intro-main-title .intro-stat-line,
+  .article .intro-main-title .intro-guide-name { font-size: 26px; }
+  .article .intro-hero .intro-stat-note { font-size: 12px; line-height: 1.8; }
+}
+
+/* Heading footnote marker size: desktop and mobile */
+.article .intro-main-title .intro-stat-line sup { font-size: 12px; }
+
+/* 注釈本文: PC・SPともに必ず12pxで表示する */
+.article .intro-hero p.intro-stat-note {
+  font-size: 12px !important;
+  line-height: 1.8;
+}
+@media (max-width: 540px) {
+  .article .intro-hero p.intro-stat-note { font-size: 12px !important; }
+}
+
+/* 経済産業省採択事業ラベルの上下余白をさらに詰める（PC/SP） */
+.article .intro-hero p.intro-stat-note {
+  margin-bottom: 2px !important;
+}
+.article .intro-hero img.intro-meti-label {
+  margin-top: 0 !important;
+  margin-bottom: 2px !important;
+}
+.article .intro-hero .section-index--top {
+  margin-top: 0 !important;
+}
+@media (max-width: 540px) {
+  .article .intro-hero p.intro-stat-note { margin-bottom: 1px !important; }
+  .article .intro-hero img.intro-meti-label { margin-bottom: 1px !important; }
+}
+
+/* SP：ご利用の流れのSTEP・小見出し・本文を他の本文階層に合わせる */
+@media (max-width: 540px) {
+  .article .usage-guide-mobile .usage-step-badge {
+    font-size: 14px;
+    font-weight: 400;
+    min-width: 76px;
+    min-height: 28px;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0;
+  }
+  .article .usage-guide-mobile .usage-step-card__body h3 {
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+  .article .usage-guide-mobile .usage-step-card__body p {
+    font-size: 16px;
+    line-height: 1.65;
+    font-weight: 400;
+    margin: 0;
+  }
+}
