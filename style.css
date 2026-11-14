@@ -1522,6 +1522,6 @@ body { font-size: 18px; line-height: 1.85; }
 .article p.intro-stat-note{text-align:right}
 
 /* Tighten comparison spacing, including the blank strip inside the image. */
-.article .comparison-text .comparison-chart{margin-bottom:4px;overflow:hidden}
+.article .comparison-text .comparison-chart{margin-bottom:24px;overflow:hidden}
 .article .comparison-text .comparison-chart img{margin-bottom:-5.5%;clip-path:inset(0 0 8% 0)}
 .article .comparison-text .comparison-chart+p{margin-top:0}
