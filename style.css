@@ -1518,3 +1518,5 @@ body { font-size: 18px; line-height: 1.85; }
 .article .cta--intro{margin-bottom:6px !important}
 .article p.intro-stat-note{font-size:11px !important;font-weight:400 !important;line-height:1.6 !important;color:#858585 !important;margin:0 0 24px !important;padding:0 4px;text-align:left}
 @media(max-width:540px){.article p.intro-stat-note{font-size:10px !important}}
+
+.article p.intro-stat-note{text-align:right}
