@@ -1526,6 +1526,6 @@ body { font-size: 18px; line-height: 1.85; }
 .article .comparison-text .comparison-chart img{margin-bottom:-5.5%;clip-path:inset(0 0 8% 0)}
 .article .comparison-text .comparison-chart+p{margin-top:0}
 
-/* Reduce the two opening headline lines by 3px. */
-.article .intro-main-title .intro-stat-line,.article .intro-main-title .intro-guide-name{font-size:27px}
-@media(max-width:540px){.article .intro-main-title .intro-stat-line,.article .intro-main-title .intro-guide-name{font-size:23px}}
+/* Restore desktop headline size and increase mobile by 2px. */
+.article .intro-main-title .intro-stat-line,.article .intro-main-title .intro-guide-name{font-size:30px}
+@media(max-width:540px){.article .intro-main-title .intro-stat-line,.article .intro-main-title .intro-guide-name{font-size:25px}}
