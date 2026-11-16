@@ -1531,3 +1531,7 @@ body { font-size: 18px; line-height: 1.85; }
 @media(max-width:540px){.article .intro-main-title .intro-stat-line,.article .intro-main-title .intro-guide-name{font-size:25px}}
 
 .article p.interview-results-note{font-size:12px !important;line-height:1.7;color:#666;margin:0 0 20px}
+
+/* Place the interview disclosure above the heading rule. */
+.article h2#interview-videos{border-bottom:0;padding-bottom:0;margin-bottom:6px}
+.article p.interview-results-note{padding-bottom:11px;border-bottom:2px solid #2e67b3;margin-bottom:22px}
