@@ -1,0 +1,1533 @@
+:root{--blue:#2d6096;--ink:#243448;--line:#d4dce5;--soft:#f3f6f9}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:#fff;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans','Yu Gothic',sans-serif;line-height:1.9;font-size:16px}a{color:#245a90;text-underline-offset:4px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible{outline:3px solid #a56c13;outline-offset:5px}img{display:block;max-width:100%;height:auto}.skip{position:absolute;left:12px;top:-80px;background:white;padding:12px;z-index:10}.skip:focus{top:12px}.site-header{border-top:5px solid var(--blue);border-bottom:1px solid var(--line)}.header-inner{max-width:1080px;margin:auto;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;gap:24px}.brand{width:270px}.header-right{display:grid;text-align:right;gap:8px;font-size:13px}.page{max-width:1080px;margin:auto;padding:0 24px}.breadcrumb{display:flex;gap:12px;flex-wrap:wrap;padding:14px 0;border-bottom:1px solid var(--line);font-size:12px}.meta{text-align:right;color:#5e6b79;font-size:12px;margin:12px 0 30px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:36px}main{min-width:0}.eyebrow{display:inline-block;background:#e9eff6;padding:4px 12px;margin:0 0 14px;font-size:14px}h1{font-size:29px;line-height:1.6;margin:0 0 24px;padding-top:16px;border-top:3px solid var(--blue);letter-spacing:.01em}h1 span{font-size:23px}p{margin:0 0 20px}.lead{margin-bottom:26px}h2{font-size:23px;line-height:1.6;border-bottom:2px solid var(--blue);padding-bottom:12px;margin:0 0 24px}h3{font-size:18px;line-height:1.7;margin:0 0 12px}article>section{margin-top:56px}#contents section{padding:20px 0 8px;border-bottom:1px solid var(--line)}#contents section h3{border-left:3px solid var(--blue);padding-left:12px}.overview-box{display:grid;grid-template-columns:1fr 1.1fr;gap:22px;align-items:center;padding:22px;border:1px solid var(--line)}.video-cover{aspect-ratio:16/10;background:#edf2f8;border-top:6px solid var(--blue);display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px 12px;text-align:center;gap:10px;font-size:13px}.video-cover strong{font-size:25px;color:#254d76}.cover-label{font-size:12px}.cover-rule{width:40px;border-top:1px solid #8199b0}.facts{margin:0;font-size:14px}.facts div{padding:10px 0;border-bottom:1px solid var(--line)}.facts div:last-child{border-bottom:0}.facts dt{font-weight:700;color:#536476;font-size:12px}.facts dd{margin:0}.cta{text-align:center;margin:26px 0 12px;padding:22px 18px;background:#f4f7f5;border:1px solid #d7e0da}.cta>p:first-child{font-size:14px;margin-bottom:12px}.cta-button{display:flex;align-items:center;justify-content:center;gap:16px;background:#167746;color:white;border-radius:3px;text-decoration:none;font-weight:700;padding:15px 18px;min-height:54px}.cta-button:hover{background:#12633a}.note{font-size:13px;color:#53606d}.cta .note{margin:10px 0 0}.benefit-inline{font-size:13px}.benefit-inline a{display:inline-block;margin-left:8px}.page-menu{background:var(--soft);padding:22px;margin:32px 0}.page-menu h2{border:0;padding:0;font-size:16px;margin-bottom:10px}.page-menu a{display:block;padding:6px 0;font-size:14px}.page-menu a:before{content:'↓';margin-right:10px}.notice{border:1px solid var(--line);padding:24px;background:#fafbfc}.notice-label{color:#456580;font-size:13px;margin-bottom:8px}.notice h2{font-size:21px;border-bottom:1px solid var(--line)}.notice .note{margin-bottom:0}.notice ul{padding-left:24px}.steps{padding-left:26px}.steps li{padding:0 0 16px 8px}.steps li::marker{color:var(--blue);font-weight:700}.steps h3{margin-bottom:6px}.steps p{margin:0}details{border-bottom:1px solid var(--line)}summary{cursor:pointer;padding:18px 0;font-weight:700}details>p{padding:0 10px 6px}.team{margin:24px 0}.writer-box{background:var(--soft);padding:22px;font-size:14px;margin:28px 0}.writer-box__label{display:block;font-size:12px;font-weight:400}.writer-box__name{font-weight:700}.writer-box__list{padding-left:20px;margin:0}.writer-box li+li{margin-top:12px}.case-visual{margin:24px 0}.success-heading{font-weight:700}.video-grid{display:grid;gap:28px}.video-frame{aspect-ratio:16/9}.video-frame iframe{width:100%;height:100%;border:0}.video-caption{font-weight:700;margin:12px 0 6px}.video-desc{font-size:14px}.case-interview{margin:30px 0}.coach_box h3{margin-top:26px}.coach_box img{margin:20px 0}.closing{text-align:center;margin:40px 0 60px}.sidebar nav{border:1px solid var(--line);margin-bottom:24px}.sidebar h2{background:var(--blue);color:white;border:0;font-size:15px;margin:0;padding:12px 16px}.sidebar a{display:block;text-decoration:none;font-size:13px;padding:12px 14px;border-top:1px solid var(--line)}.sidebar a:hover{background:var(--soft)}.sidebar a:before{content:'›';margin-right:8px}.footer{border-top:1px solid var(--line);background:var(--soft);padding:28px 24px;font-size:12px}.footer__inner{max-width:1032px;margin:auto}.footer__links{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px}.footer-copy{color:#53606d}@media(max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}.sidebar{display:none}.page{max-width:760px}}@media(max-width:540px){body{font-size:15px}.header-inner{padding:14px 18px;gap:10px;align-items:flex-start}.brand{width:190px}.header-right{font-size:11px;max-width:110px}.page{padding:0 18px}.meta{margin-bottom:22px;font-size:11px}.breadcrumb{font-size:11px;gap:6px}h1{font-size:24px}h1 span{font-size:18px}h2{font-size:21px}.overview-box{grid-template-columns:1fr;padding:18px;gap:12px}.video-cover{aspect-ratio:16/8}.facts div{display:grid;grid-template-columns:82px 1fr;gap:10px}.facts dt{padding-top:1px}.cta{padding:18px 12px}.cta-button{font-size:14px;padding:14px 8px;gap:7px}.notice{padding:20px 16px}.notice h2{font-size:19px}article>section{margin-top:42px}}@media(max-width:360px){.header-inner{display:block}.header-right{max-width:none;display:flex;justify-content:space-between;margin-top:8px}.brand{width:200px}.cta-button{font-size:13px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media(max-width:540px){.header-inner{flex-wrap:wrap}.header-right{max-width:none;width:100%;display:flex;justify-content:space-between;text-align:left}.header-right span{white-space:nowrap}}
+
+/* Map restored content onto the first revision's design system. */
+.site-header__inner{max-width:1080px;margin:auto;padding:20px 24px}.brand-row{display:flex;align-items:center;justify-content:space-between;gap:24px}.brand-image{width:270px}.site-search{display:flex;gap:6px;max-width:290px;margin:0}.site-search input,.mobile-search-form input{min-width:0;width:100%;height:36px;border:1px solid #bfcbd7;padding:6px 8px;font:inherit}.site-search button,.mobile-search-form button,.header-action{border:1px solid var(--blue);background:var(--blue);color:white;padding:6px 14px;font:inherit;cursor:pointer}.header-actions{display:none}.mobile-panel{max-width:760px;margin:auto;padding:16px 18px;border-bottom:1px solid var(--line)}.mobile-panel[hidden]{display:none}.mobile-search-form{display:flex;gap:8px}.mobile-menu-list a{display:block;padding:8px}.content-layout{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:36px}.article{min-width:0}.article-meta{text-align:right;color:#5e6b79;font-size:12px;margin:12px 0 30px;display:flex;justify-content:flex-end;gap:14px}.category-label{display:inline-block;background:#e9eff6;padding:4px 12px;margin:0 0 14px;font-size:14px}.course-label{width:145px;margin:0 0 24px}.intro-lead--question{font-weight:700}.overview-box{margin-top:26px}.navi-cover{margin:0;min-width:0}.navi-cover__crop{aspect-ratio:1254/1040;overflow:hidden}.navi-cover__crop img{width:100%;height:auto}.navi-cover figcaption{font-size:12px;text-align:center;color:#53606d;margin:8px 0 0}.cta__button{display:flex;align-items:center;justify-content:center;gap:16px;background:#167746;color:white;border-radius:3px;text-decoration:none;font-weight:700;padding:15px 18px;min-height:54px}.cta__button:hover{background:#12633a}.cta .cta-benefit{font-size:12px;line-height:1.8;text-align:center;margin:12px 0 0;color:#53606d}.cta-benefit a{display:inline-block;margin-left:4px}.section-index{background:var(--soft);padding:22px;margin:32px 0}.section-index ul{list-style:none;padding:0;margin:0}.section-index a{display:block;padding:6px 0;font-size:14px}.section-index a:before{content:'↓';margin-right:10px}.section-transition-lead{margin:28px 0;color:#53606d}.section-transition-line{display:block}.section-transition-arrows{display:none}.content-caption{font-weight:700}.civic-table{width:100%;table-layout:fixed;border-collapse:collapse;margin:20px 0 28px;font-size:16px;line-height:1.7}.civic-table .item-col{width:24%}.civic-table th,.civic-table td{padding:22px 16px;border:1px solid #bdcad8;text-align:left;vertical-align:middle;overflow-wrap:anywhere}.civic-table thead th{background:#e4eaf0;color:#293f55}.civic-table thead th:last-child{background:#285e91;color:#fff}.civic-table tbody th{background:#f1f4f7}.civic-table tbody td{background:#fff}.civic-table tbody td:last-child{background:#e4eff9;color:#1e4d78;font-weight:700;border-left:2px solid #6a93b7}#support,#about,#story,#interview-videos{margin-top:56px}.support-item{padding:20px 0 28px;border-bottom:1px solid var(--line)}.support-item h3{border-left:3px solid var(--blue);padding-left:12px}.support-photo{max-width:540px;width:100%;margin:20px auto 0}.benefit-notice{border:1px solid #d5a5a5;border-top:5px solid #a73b3b;background:#fff2f1;padding:26px;margin:44px 0}.benefit-notice h2{color:#913131;border-color:#d9aaaa}.benefit-label{display:inline-block;background:#a73b3b;color:#fff;padding:3px 12px;font-size:13px;margin:0 0 16px}.benefit-note{font-size:13px;color:#863e3e;margin-bottom:0}.faq-section{margin:44px 0}.faq-section details p{padding:0 10px 6px}.side-column nav{display:block}.side-box{border:1px solid var(--line);margin-bottom:24px}.side-box h2{background:var(--blue);color:white;border:0;font-size:15px;margin:0;padding:12px 16px}.side-box a{display:block;text-decoration:none;font-size:13px;padding:12px 14px;border-top:1px solid var(--line)}.side-box a:before{content:'›';margin-right:8px}.side-box a:hover{background:var(--soft)}.final-photo{margin:24px 0}.subtitle{font-weight:700}.article>h2:not([id]){margin-top:56px}.interview-link-wrap{margin:20px 0 36px}.interview-link{display:block;padding:16px;border:1px solid var(--line);text-align:center;text-decoration:none}.video-help{font-size:13px;color:#53606d}.video-controls{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;font-size:14px}.video-controls button{font:inherit;background:white;border:1px solid #b6c7d7;color:#2d6096;padding:10px 16px;border-radius:3px;cursor:pointer}.video-controls button:disabled{opacity:.4;cursor:default}.video-grid{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:0;padding:0 0 16px;margin-bottom:44px;scrollbar-color:#91a9c0 #edf2f7}.video-card{flex:0 0 88%;min-width:0;scroll-snap-align:start;border:1px solid #bdcddb;background:#fff;border-radius:4px;overflow:hidden}.video-card .video-frame{aspect-ratio:16/9;background:#edf2f7}.video-card .video-caption{padding:0 18px;margin:18px 0 8px}.video-card .video-desc{padding:0 18px 18px;margin:0}.interview-modal[hidden]{display:none}.interview-modal{position:fixed;inset:0;z-index:100;background:#0009;display:flex;justify-content:center;align-items:center;padding:24px}.interview-modal__dialog{position:relative;max-width:800px;width:100%;max-height:90vh;overflow-y:auto;background:#fff;padding:38px}.interview-modal__close{position:sticky;float:right;top:0;background:white;border:1px solid var(--line);font-size:24px;width:44px;height:44px;cursor:pointer}.search-status{max-width:1080px;margin:auto;padding:0 24px;font-size:14px}.search-status:empty{display:none}.search-status:not(:empty){padding-top:12px;padding-bottom:12px}mark.search-hit{background:#fff0ac;color:#182d43}[id]{scroll-margin-top:20px}
+@media(max-width:900px){.content-layout{grid-template-columns:minmax(0,1fr)}.side-column{display:none}}
+@media(max-width:540px){.site-header__inner{padding:14px 18px}.brand-image{width:190px}.brand-row{gap:10px}.site-search{display:none}.header-actions{display:flex;gap:6px}.header-action{font-size:12px;padding:8px}.article-meta{margin-bottom:22px;font-size:11px;gap:10px}.overview-box{grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding:14px;gap:14px}.overview-box .facts div{display:block;padding:7px 0}.overview-box .facts{font-size:12px}.navi-cover figcaption{font-size:11px}.civic-table{font-size:13px}.civic-table th,.civic-table td{padding:14px 8px}.cta__button{font-size:14px;padding:14px 8px;gap:7px}.benefit-notice{padding:20px 16px}.video-card{flex-basis:92%}.video-grid{gap:12px}.interview-modal{padding:12px}.interview-modal__dialog{padding:24px 18px}.support-item{padding-bottom:24px}.brand-row{flex-wrap:wrap}}
+@media(max-width:360px){.overview-box{grid-template-columns:1fr}.navi-cover{max-width:230px;margin:auto}.overview-box .facts div{display:grid;grid-template-columns:82px 1fr}.cta__button{font-size:13px}.header-action{padding:6px 8px}}
+.site-search button,.mobile-search-form button{flex:0 0 auto;white-space:nowrap;min-width:60px}.site-search{align-items:center}.site-search button{height:36px;padding:4px 12px}
+@media(max-width:540px){.overview-box{grid-template-columns:1fr;padding:18px;gap:12px}.overview-box .facts{font-size:14px}.overview-box .facts div{display:grid;grid-template-columns:82px 1fr;gap:10px;padding:10px 0}.navi-cover{max-width:none;width:100%;margin:0}.navi-cover figcaption{font-size:12px}}
+.breadcrumb span:not([aria-current]){text-decoration:underline;text-underline-offset:3px;cursor:default}
+.site-search button,.mobile-search-form button,.header-action--search{display:inline-flex;align-items:center;justify-content:center;text-align:center;line-height:1.2}
+/* Emphasize the guide name within the opening heading. */
+.article h1{font-size:25px;line-height:1.65}
+.article h1>span{display:inline-block;font-size:34px;line-height:1.45;margin-top:8px}
+@media(max-width:540px){.article h1{font-size:20px}.article h1>span{font-size:28px;margin-top:8px}}
+@media(max-width:360px){.article h1{font-size:18px}.article h1>span{font-size:25px}}
+
+/* Intro spacing and badge placement from supplied references. */
+.intro-lead{line-height:1.8;margin-bottom:16px}
+.intro-lead--question{margin-bottom:16px}
+.intro-lead--compact-next{margin-bottom:0}
+.overview-badge{grid-column:1 / -1;display:flex;justify-content:flex-end}
+.overview-badge .course-label{width:145px;max-width:100%;margin:0}
+.overview-box{row-gap:12px}
+/* Restore original CTA and transition decoration; retain current typography. */
+.cta{margin:36px 0;padding:22px;background:#f7fbf8;border:1px solid #b7d9c4;text-align:center}
+.cta--intro{margin-top:18px;padding:18px 22px 20px}
+.cta__button{display:inline-flex;width:min(100%,420px);min-height:52px;padding:12px 18px;background:#06c755;box-shadow:none}
+.cta__button:hover{background:#06c755;filter:brightness(.97)}
+.section-transition-lead{text-align:center;margin:28px 0 12px;color:var(--ink)}
+.section-transition-arrows{display:flex;flex-direction:column;align-items:center;gap:8px;margin:0 0 -6px}
+.section-transition-arrows span{width:0;height:0;border-left:9px solid transparent;border-right:9px solid transparent;border-top:10px solid #244a72}
+@media(max-width:540px){.cta{margin:20px 0;padding:14px 12px}.cta--intro{margin-top:24px;padding:14px 12px 16px}.cta__button{width:100%;min-height:50px;padding:10px 12px}}
+/* Original table-of-contents decoration, without changing link typography. */
+.section-index{background:#eef2f8;border-radius:8px;padding:16px 18px}
+.section-index a{display:flex;align-items:center;gap:8px;color:#245a90;text-decoration:underline}
+.section-index a:before{content:'▼';display:inline-flex;align-items:center;justify-content:center;flex:0 0 18px;width:18px;height:18px;margin:0;border-radius:50%;background:#3269ac;color:#fff;font-size:9px;line-height:1;text-decoration:none}
+/* Larger CTA introduction and restored gentle pulse. */
+.cta>p.cta__title:first-child{font-size:20px;line-height:1.65}
+.cta__button{transform-origin:center;animation:ctaPulse 1.9s ease-in-out infinite}
+@keyframes ctaPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.025)}}
+@media(max-width:540px){.cta>p.cta__title:first-child{font-size:18px}}
+@media(max-width:360px){.cta>p.cta__title:first-child{font-size:16px}}
+@media(prefers-reduced-motion:reduce){.cta__button{animation:none}}
+/* Stronger contents navigation and section introduction. */
+.section-index a{font-size:18px;font-weight:700;line-height:1.7}
+.section-transition-lead{font-size:20px;font-weight:700;line-height:1.7}
+@media(max-width:540px){.section-index a{font-size:16px}.section-transition-lead{font-size:18px}}
+
+/* Enlarge the receive-button label across screen sizes. */
+.cta__button{font-size:20px;line-height:1.6}
+@media(max-width:540px){.cta__button{font-size:18px;padding-inline:8px}}
+@media(max-width:360px){.cta__button{font-size:16px}}
+
+/* Comparison, invitation, and numbered usage flow. */
+.civic-table .item-col{width:20%}
+.civic-table th,.civic-table td{padding:18px 10px}
+.benefit-notice{background:#fff8cf;border-color:#e0cb72;border-top-color:#d3ae32}
+.benefit-notice h2{color:var(--ink);border-color:#decb7d}
+.benefit-label{background:#f3df88;color:#3e351d;font-weight:700}
+.benefit-note{color:#000;font-size:12px}
+.usage-steps{list-style:none;padding:0;margin:0 0 32px}
+.usage-steps li{display:grid;grid-template-columns:70px 1fr;gap:24px;position:relative;padding:0 0 26px}
+.usage-step-number{align-self:start;text-align:center;color:#2d6096;font-size:30px;line-height:1.1;background:linear-gradient(135deg,#e9eef5,white);border-radius:50%;padding:10px 4px}
+.usage-step-number small{display:block;font-size:11px;font-weight:700;letter-spacing:.08em}
+.usage-steps li>div{position:relative;border-bottom:1px solid var(--line);padding:10px 0 22px}
+.usage-steps li>div:before{content:'';position:absolute;left:-16px;top:22px;width:8px;height:8px;border-radius:50%;background:var(--blue)}
+.usage-steps li:not(:last-child):after{content:'';position:absolute;left:81px;top:34px;bottom:-16px;width:1px;background:var(--line)}
+.usage-steps h3{margin-bottom:8px}.usage-steps p{margin:0}.usage-steps li:last-child>div{border-bottom:0}
+.interview-link-wrap{text-align:center}
+.interview-link{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-width:250px;max-width:100%;min-height:42px;padding:8px 18px;color:#fff;background:#254d7d;border:0;border-radius:999px}
+.interview-link:after{content:'+';display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;color:#254d7d;background:white;border-radius:50%;line-height:1}
+.writer-box__name{font-size:24px}
+.footer__inner{text-align:center}.footer__links{justify-content:center}
+@media(max-width:540px){.civic-table{font-size:12px}.civic-table th,.civic-table td{padding:12px 6px}.usage-steps li{grid-template-columns:54px 1fr;gap:22px}.usage-step-number{font-size:26px}.usage-steps li:not(:last-child):after{left:63px}.writer-box__name{font-size:22px}}
+
+/* Header controls remain visible but are intentionally inactive. */
+.site-search input:disabled{opacity:1;background:#fff;color:var(--ink);cursor:default;-webkit-text-fill-color:var(--ink)}
+.site-search button:disabled,.header-action:disabled{opacity:1;color:#fff;background:var(--blue);border-color:var(--blue);cursor:default;-webkit-text-fill-color:#fff}
+
+/* 2026-11-11: requested layout refinements */
+.intro-category-row{display:flex;align-items:center;justify-content:flex-start;flex-wrap:wrap;column-gap:14px;row-gap:6px;margin:0 0 8px}
+.intro-category-row .category-label{margin:0}
+.intro-category-badge{display:block;width:135px;max-width:45%;height:auto;object-fit:contain}
+.article-meta{margin-bottom:14px}
+.article h1{margin-top:0}
+.intro-lead--question{font-size:clamp(20px,2.5vw,25px);line-height:1.45;margin-bottom:3px}
+.intro-lead--question+.intro-lead{line-height:1.55;margin-bottom:15px}
+.civic-table tbody td:last-child{border-left:1px solid #bdcad8}
+.benefit-notice{background:#fffdee;border-color:#ebdfa7;border-top-color:#e0c765}
+.benefit-label{background:#fff;color:#3e351d;border:1px solid #e0d6ac}
+#story{text-align:center}
+.article .subtitle{font-size:23px;line-height:1.5;margin-bottom:18px}
+@media(max-width:540px){.intro-category-row{gap:7px 10px;margin-bottom:7px}.intro-category-badge{width:110px;max-width:43%}.article-meta{margin-bottom:12px}.intro-lead--question{font-size:21px}.article .subtitle{font-size:21px}}
+@media(max-width:360px){.intro-category-badge{width:94px}.intro-lead--question{font-size:19px}}
+
+
+/* 2026-11-11: intro cleanup for readability */
+.article > .intro-category-row,
+.article > h1,
+.article > .intro-message{max-width:760px}
+.article > h1{margin-bottom:18px}
+.intro-message{display:grid;gap:14px;margin-bottom:10px}
+.intro-lead--summary{font-size:17px;line-height:1.75;margin-bottom:0;color:#31485f}
+.intro-point-box{background:#f7f9fc;border:1px solid #d8e1ea;border-left:4px solid #2d6096;border-radius:6px;padding:18px 20px 16px}
+.intro-point-box__title{font-size:18px;line-height:1.7;margin:0 0 12px}
+.intro-check-list{list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:0;margin:0 0 12px}
+.intro-check-list li{display:flex;align-items:center;justify-content:center;text-align:center;min-height:54px;padding:10px 12px;border:1px solid #cfd9e3;border-radius:999px;background:#fff;font-weight:700;line-height:1.5;color:#243448}
+.intro-point-box__note{font-size:15px;line-height:1.8;margin:0;color:#31485f}
+@media(max-width:540px){
+  .article > .intro-category-row,
+  .article > h1,
+  .article > .intro-message{max-width:none}
+  .article > h1{margin-bottom:16px}
+  .intro-message{gap:12px}
+  .intro-lead--summary{font-size:15px;line-height:1.8}
+  .intro-point-box{padding:16px 14px}
+  .intro-point-box__title{font-size:16px;line-height:1.65;margin-bottom:10px}
+  .intro-check-list{grid-template-columns:1fr;gap:8px;margin-bottom:10px}
+  .intro-check-list li{justify-content:flex-start;min-height:0;border-radius:12px;padding:11px 12px}
+  .intro-point-box__note{font-size:14px;line-height:1.75}
+}
+
+/* Requested story alignment: heading left, interview image centered over the button. */
+#story{text-align:left}
+.article > img.case-visual{display:block;margin:24px auto;max-width:100%;height:auto}
+
+
+/* 2026-11-11: sharp logo and text METI badge */
+.media-logo .brand-image{width:270px;max-width:100%;height:auto}
+.intro-category-badge-text{display:inline-flex;align-items:center;justify-content:center;min-height:34px;padding:6px 14px;border:1px solid #b9c8d7;border-radius:999px;background:#f6f9fc;color:#31485f;font-size:14px;font-weight:700;line-height:1.4;white-space:nowrap;margin:0}
+@media(max-width:540px){
+  .media-logo .brand-image{width:190px;max-width:100%}
+  .intro-category-badge-text{min-height:30px;padding:5px 12px;font-size:12px}
+}
+@media(max-width:360px){
+  .intro-category-badge-text{font-size:11px}
+}
+
+/* Header logo: restored compact sizing. Search field allows typing only. */
+.media-logo .brand-image{width:270px;max-width:100%;height:auto}
+.site-search input{opacity:1;cursor:text;background:#fff}
+@media(max-width:540px){.media-logo .brand-image{width:190px}}
+
+
+/* 2026-11-11: intro revised to supplied screenshot */
+.article .intro-hero{width:100%;max-width:760px;margin:0 0 28px}
+.article .intro-hero .intro-main-title{display:flex;flex-direction:column;align-items:flex-start;gap:0;margin:0 0 24px;padding:0 0 18px;border-top:0;border-bottom:1px solid #d8e0e9;line-height:1.45;letter-spacing:0}
+.article .intro-main-title .intro-eyebrow{display:block;margin:0 0 6px;color:#19283a;font-size:14px;font-weight:700;line-height:1.55}
+.article .intro-main-title .intro-main-line{display:block;margin:0;color:#243448;font-size:29px;font-weight:800;line-height:1.4}
+.article .intro-main-title .intro-guide-name{display:block;margin:4px 0 0;color:#194c78;font-size:34px;font-weight:800;line-height:1.45}
+.article .intro-concern{margin:0 0 24px;padding:18px 24px;background:#f2f5f9;border-left:3px solid #2d6096}
+.article .intro-concern__title{margin:0 0 8px;font-size:21px;font-weight:800;line-height:1.6;color:#263f58}
+.article .intro-concern__description{margin:0;color:#526477;font-size:15px;line-height:1.8}
+.article .intro-plain-copy{margin:0}
+.article .intro-plain-copy p{margin:0 0 6px;font-size:15px;line-height:1.85;color:#33465a}
+.article .intro-plain-copy strong{font-weight:800;color:#25394f}
+@media(max-width:540px){
+  .article .intro-hero{margin-bottom:24px}
+  .article .intro-hero .intro-main-title{margin-bottom:20px;padding-bottom:16px}
+  .article .intro-main-title .intro-eyebrow{font-size:12px}
+  .article .intro-main-title .intro-main-line{font-size:clamp(19px,5.2vw,26px)}
+  .article .intro-main-title .intro-guide-name{font-size:clamp(25px,6.4vw,32px)}
+  .article .intro-concern{padding:16px 17px;margin-bottom:22px}
+  .article .intro-concern__title{font-size:18px}
+  .article .intro-concern__description,.article .intro-plain-copy p{font-size:14px}
+}
+
+
+/* 2026-11-11: new supplied minimal top reference */
+.article .intro-hero{margin-bottom:28px}
+.article .intro-hero .intro-main-title{margin:0 0 24px;padding:0 0 18px;border:0;border-bottom:1px solid #d8e0e9;gap:0}
+.article .intro-main-title .intro-eyebrow{font-size:14px;line-height:1.6;font-weight:700;color:#222;margin:0 0 6px}
+.article .intro-main-title .intro-guide-name{font-size:34px;line-height:1.45;font-weight:800;color:#194c78;margin:0}
+.article .intro-concern{padding:0;margin:0 0 20px;background:transparent;border:0;border-radius:0}
+.article .intro-concern__title{font-size:21px;font-weight:800;line-height:1.6;color:#243448;margin:0 0 8px}
+.article .intro-concern__description{font-size:15px;line-height:1.8;color:#526477;margin:0}
+.article .intro-plain-copy p{font-size:15px;line-height:1.9;margin:0 0 12px;color:#33465a}
+.article .intro-plain-copy p:last-child{margin-bottom:0}
+@media(max-width:540px){
+  .article .intro-hero .intro-main-title{margin-bottom:18px;padding-bottom:16px}
+  .article .intro-main-title .intro-eyebrow{font-size:12px;line-height:1.65}
+  .article .intro-main-title .intro-guide-name{font-size:clamp(25px,6.4vw,32px)}
+  .article .intro-concern{padding:0;margin-bottom:18px}
+  .article .intro-concern__title{font-size:18px}
+  .article .intro-concern__description,.article .intro-plain-copy p{font-size:14px}
+}
+
+/* 2026-11-11: faithfully match the supplied final top screenshot */
+.article-meta{display:none}
+.article > .intro-category-row{margin:28px 0 11px;gap:10px;align-items:center}
+.article > .intro-category-row .category-label{display:inline-flex;align-items:center;min-height:31px;padding:5px 11px;margin:0;background:#e9eff6;color:#47596d;font-size:11px;font-weight:400;line-height:1.5;border:0;border-radius:0}
+.article > .intro-category-row .intro-category-badge-text{min-height:31px;padding:5px 11px;border:1px solid #b9c8d7;border-radius:3px;background:white;color:#47596d;font-size:11px;font-weight:400;line-height:1.5}
+.article .intro-hero{max-width:none;margin:0 0 26px}
+.article .intro-hero .intro-main-title{margin:0 0 22px;padding:0 0 16px;border:0;border-bottom:1px solid #d8e0e9;line-height:1.4}
+.article .intro-main-title .intro-eyebrow{font-size:13px;font-weight:700;color:#242424;line-height:1.55;margin:0 0 7px}
+.article .intro-main-title .intro-guide-name{font-size:32px;font-weight:800;line-height:1.4;color:#194c78;margin:0}
+.article .intro-concern{padding:0;margin:0 0 23px;background:none;border:0}
+.article .intro-concern__title{font-size:20px;line-height:1.6;font-weight:800;margin:0 0 13px;color:#243448}
+.article .intro-concern__description{font-size:14px;line-height:1.8;color:#526477;margin:0}
+.article .intro-plain-copy p{font-size:14px;line-height:1.9;color:#33465a;margin:0 0 14px}
+.article .intro-plain-copy p:last-child{margin-bottom:0}
+@media(max-width:900px){.page{padding-left:10px;padding-right:10px}}
+@media(max-width:540px){
+  .article > .intro-category-row{margin-top:24px;gap:10px;margin-bottom:11px}
+  .article .intro-main-title .intro-eyebrow{font-size:12px}
+  .article .intro-main-title .intro-guide-name{font-size:clamp(25px,6.4vw,32px)}
+  .article .intro-concern__title{font-size:18px;margin-bottom:10px}
+  .article .intro-concern__description,.article .intro-plain-copy p{font-size:14px}
+}
+
+/* Category labels immediately under the breadcrumb, with separator below. */
+.page > .breadcrumb{border-bottom:0;padding-bottom:10px}
+.page > .intro-category-row--below-breadcrumb{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 14px;padding:12px 0 15px;border-bottom:1px solid #d8e0e9}
+.page > .intro-category-row--below-breadcrumb .category-label{display:inline-flex;align-items:center;min-height:31px;padding:5px 11px;margin:0;background:#e9eff6;color:#47596d;font-size:11px;font-weight:400;line-height:1.5;border:0;border-radius:0}
+.page > .intro-category-row--below-breadcrumb .intro-category-badge-text{min-height:31px;padding:5px 11px;margin:0;border:1px solid #b9c8d7;border-radius:3px;background:white;color:#47596d;font-size:11px;font-weight:400;line-height:1.5}
+/* Make the top introductory headline more legible. */
+.article .intro-main-title .intro-eyebrow{font-size:19px;line-height:1.5;font-weight:700;margin-bottom:9px}
+@media(max-width:540px){.page > .intro-category-row--below-breadcrumb{padding:10px 0 13px;margin-bottom:12px}.article .intro-main-title .intro-eyebrow{font-size:16px;line-height:1.55}}
+
+/* 2026-11-11: remove rule under labels without changing spacing; tighten intro pairs */
+.page > .intro-category-row--below-breadcrumb{border-bottom:none}
+.article .intro-concern__title{margin-bottom:3px;line-height:1.5}
+.article .intro-concern__description{line-height:1.65}
+.article .intro-concern{margin-bottom:14px}
+.article .intro-plain-copy p{line-height:1.65;margin-bottom:3px}
+.article .intro-plain-copy p:last-child{margin-bottom:0}
+@media(max-width:540px){
+ .article .intro-concern__title{margin-bottom:3px}
+ .article .intro-concern{margin-bottom:13px}
+ .article .intro-plain-copy p{line-height:1.65;margin-bottom:3px}
+}
+
+
+/* 2026-11-11: badges left and breadcrumbs right on the same row */
+.page > .page-top-meta{display:flex;align-items:center;justify-content:space-between;gap:12px 22px;flex-wrap:wrap;margin:0 0 14px;padding:12px 0 15px}
+.page-top-meta > .intro-category-row--below-breadcrumb{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0;padding:0;border:0;flex:0 0 auto}
+.page-top-meta > .intro-category-row--below-breadcrumb .category-label{display:inline-flex;align-items:center;min-height:31px;padding:5px 11px;margin:0;background:#e9eff6;color:#47596d;font-size:11px;font-weight:400;line-height:1.5;border:0;border-radius:0}
+.page-top-meta > .intro-category-row--below-breadcrumb .intro-category-badge-text{min-height:31px;padding:5px 11px;margin:0;border:1px solid #b9c8d7;border-radius:3px;background:white;color:#47596d;font-size:11px;font-weight:400;line-height:1.5}
+.page-top-meta > .breadcrumb{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap;min-width:0;margin:0 0 0 auto;padding:0;border:0;font-size:11px;color:#607185}
+@media(max-width:740px){
+ .page > .page-top-meta{gap:10px;padding:10px 0 13px;margin-bottom:12px}
+ .page-top-meta > .breadcrumb{width:100%;justify-content:flex-end}
+}
+
+/* Top date details: small and aligned to the right, update date is Japan-local via script.js. */
+.page > .article-meta{display:flex;align-items:center;justify-content:flex-end;gap:14px;margin:0 0 15px;padding:0;color:#758397;font-size:11px;line-height:1.5;font-weight:400}
+@media(max-width:540px){.page > .article-meta{font-size:10px;gap:10px;margin-bottom:13px}}
+
+
+/* Smartphone-specific order: logo -> breadcrumb -> dates; larger, clear labels. */
+.mobile-header-meta{display:none}
+@media(max-width:540px){
+  .site-header__inner{padding-bottom:11px}
+  .mobile-header-meta{display:block;margin-top:12px;padding-top:10px;border-top:1px solid #e5eaf0}
+  .mobile-header-breadcrumb{display:flex;align-items:center;justify-content:flex-start;gap:5px 7px;flex-wrap:wrap;margin:0;padding:0;border:0;font-size:11px;line-height:1.65;color:#607185}
+  .mobile-header-dates{display:flex;gap:4px 12px;flex-wrap:wrap;margin:5px 0 0;color:#758397;font-size:10px;line-height:1.6}
+  .page-top-meta > .breadcrumb,.page > .article-meta{display:none}
+  .page > .page-top-meta{display:block;padding:15px 0 16px;margin-bottom:14px}
+  .page-top-meta > .intro-category-row--below-breadcrumb{display:flex;gap:8px 10px;align-items:center;justify-content:flex-start;margin:0}
+  .page-top-meta > .intro-category-row--below-breadcrumb .category-label,
+  .page-top-meta > .intro-category-row--below-breadcrumb .intro-category-badge-text{
+    min-height:39px;padding:9px 13px;font-size:14px;font-weight:700;line-height:1.4;
+  }
+  .page-top-meta > .intro-category-row--below-breadcrumb .category-label{background:#e8eff7;color:#274967}
+  .page-top-meta > .intro-category-row--below-breadcrumb .intro-category-badge-text{background:#fff;border-color:#9eb4c9;color:#274967}
+}
+@media(max-width:360px){
+  .page-top-meta > .intro-category-row--below-breadcrumb .category-label,
+  .page-top-meta > .intro-category-row--below-breadcrumb .intro-category-badge-text{font-size:12px;padding:8px 9px;min-height:36px}
+}
+
+/* Desktop: larger top category labels and slightly less space below. */
+@media(min-width:541px){
+  .page-top-meta > .intro-category-row--below-breadcrumb .category-label,
+  .page-top-meta > .intro-category-row--below-breadcrumb .intro-category-badge-text{
+    font-size:15px;
+    font-weight:700;
+    min-height:38px;
+    padding:8px 14px;
+    line-height:1.45;
+  }
+  .page > .page-top-meta{margin-bottom:7px;padding-bottom:9px}
+}
+
+/* 2026-11-11: SP only — content images a little smaller, comparison table more legible */
+@media (max-width:540px){
+  .article .overview-box{width:90%;max-width:90%;margin-left:auto;margin-right:auto;padding:15px 14px}
+  .overview-box .navi-cover{width:90%;max-width:90%;margin:0 auto}
+  .article .support-photo{display:block;width:90%;max-width:90%;height:auto;margin-left:auto;margin-right:auto}
+  .article > img.case-visual,
+  .article .final-photo{display:block;width:90%;max-width:90%;height:auto;margin-left:auto;margin-right:auto}
+  .article .civic-table{width:96%;max-width:96%;margin-left:auto;margin-right:auto;font-size:13px;line-height:1.55}
+  .article .civic-table th,.article .civic-table td{padding:10px 4px;font-size:13px;line-height:1.55}
+}
+@media (max-width:360px){
+  .article .civic-table{font-size:12.5px}
+  .article .civic-table th,.article .civic-table td{font-size:12.5px;padding:9px 3px}
+}
+
+/* Intro body text: match comparison section's standard paragraph typography. */
+.article .intro-concern__description,
+.article .intro-plain-copy p{
+  font-size:16px;
+  line-height:1.9;
+}
+@media(max-width:540px){
+  .article .intro-concern__description,
+  .article .intro-plain-copy p{
+    font-size:15px;
+    line-height:1.9;
+  }
+}
+
+
+/* FAQ: PC uses the original understated accordion; SP uses clearly tappable cards. */
+@media(max-width:540px){
+  .faq-section details{border:1px solid #ccd8e5;background:#fff;margin:0 0 12px}
+  .faq-section details>summary{
+    display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer;
+    min-height:60px;padding:13px 12px;background:#f5f8fc;
+    color:#243448;font-size:15px;font-weight:700;line-height:1.6;
+  }
+  .faq-section details>summary::-webkit-details-marker{display:none}
+  .faq-section details>summary::before{
+    content:'Q';flex:none;font-size:18px;color:#2d6096;font-weight:800;
+  }
+  /* Cross strokes are positioned geometrically, rather than font-aligned. */
+  .faq-section details>summary::after{
+    content:'';flex:0 0 30px;margin-left:auto;display:block;
+    width:30px;height:30px;box-sizing:border-box;
+    border:1px solid #a9bed2;background-color:#fff;
+    background-image:linear-gradient(#2d6096,#2d6096),linear-gradient(#2d6096,#2d6096);
+    background-size:12px 2px,2px 12px;
+    background-position:center center,center center;
+    background-repeat:no-repeat;
+  }
+  .faq-section details[open]>summary{background:#edf3f9;border-bottom:1px solid #ccd8e5}
+  .faq-section details[open]>summary::after{background-image:linear-gradient(#2d6096,#2d6096);background-size:12px 2px}
+  .faq-section details>p{margin:0;padding:14px 14px 18px 34px;font-size:14px;line-height:1.85;color:#31465c}
+}
+
+/* Enlarge the opening preparation headline by two size steps. */
+.article .intro-main-title .intro-eyebrow{font-size:23px}
+@media(max-width:540px){.article .intro-main-title .intro-eyebrow{font-size:20px}}
+
+.article .intro-main-title .intro-eyebrow span{font-size:inherit;font-weight:inherit;line-height:inherit}
+
+/* Match the original LP's 16px mobile reading text. */
+@media(max-width:540px){
+.article .comparison-text p:not(.content-caption),
+.article .support-item p,
+.article .benefit-notice p:not(.benefit-label):not(.benefit-note),
+.article .usage-steps p,
+.article .faq-section details>p,
+.article .faq-section details>summary,
+.article .video-desc,
+.article .writer-box__list,
+.article>p:not(.subtitle):not(.section-transition-lead):not(.video-help){font-size:16px}
+}
+
+/* Match mobile introductory paragraphs to the 16px body text. */
+@media(max-width:540px){.article .intro-concern__description,.article .intro-plain-copy p{font-size:16px}}
+
+
+.comparison-chart{margin:20px 0 28px}.comparison-chart img{display:block;width:100%;height:auto;background:#fff;border:1px solid #d8e2ec;border-radius:4px}.comparison-text .comparison-chart{max-width:100%}@media(max-width:540px){.comparison-chart{margin:16px 0 22px}}
+
+/* 2026-11-12: 行政サイト向けの静的レイアウト */
+.article .usage-steps{list-style:none;margin:0 0 32px;padding:0}
+.article .usage-steps li{display:grid;grid-template-columns:40px minmax(0,1fr);gap:14px;padding:16px 0;border-bottom:1px solid #d4dce5}
+.article .usage-steps li::after,.article .usage-steps li>div::before{content:none!important;display:none!important}
+.article .usage-step-number{display:block;align-self:start;text-align:left;font-size:18px;line-height:1.6;font-weight:700;color:#2d6096;background:none;border-radius:0;padding:0}
+.article .usage-steps li>div{padding:0;border:0}
+.article .usage-steps h3{margin:0 0 6px}.article .usage-steps p{margin:0}
+.article .faq-item{border-bottom:1px solid #d4dce5;padding:18px 0}
+.article .faq-item:first-of-type{border-top:1px solid #d4dce5}
+.article .faq-question{font-size:16px;line-height:1.75;margin:0 0 8px}
+.article .faq-answer{font-size:16px;line-height:1.85;margin:0;padding:0 0 0 1.65em}
+.article .video-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:22px;overflow:visible;scroll-snap-type:none;scroll-padding:0;padding:0;margin:0 0 44px}
+.article .video-card{flex:auto;min-width:0;scroll-snap-align:none;border:1px solid #bdcddb;border-radius:0;overflow:hidden}
+.article .video-card .video-frame{aspect-ratio:16/9}
+@media(max-width:540px){.article .usage-steps li{grid-template-columns:30px minmax(0,1fr);gap:10px}.article .usage-step-number{font-size:17px}.article .faq-question,.article .faq-answer{font-size:16px}}
+
+.benefit-transition-lead{margin:52px 0 12px}.benefit-transition-arrows{margin:0 0 18px}.benefit-transition-lead br{display:none}@media(max-width:540px){.benefit-transition-lead{margin:42px 0 12px}.benefit-transition-lead br{display:block}}
+
+/* 特典のご案内：他セクションと同一の白背景・標準見出し */
+.article .benefit-notice{background:transparent;border:0;border-radius:0;padding:0;margin:30px 0 48px;box-shadow:none}
+.article .benefit-notice h2{color:var(--ink);background:transparent;border-color:var(--blue);margin:0 0 22px}
+.article .benefit-notice .benefit-photo{margin:0 0 24px;padding:0}
+.article .benefit-notice .benefit-photo img{width:100%;height:auto;display:block;object-fit:cover}
+.article .benefit-notice .benefit-note{color:#53606d;font-size:13px;line-height:1.75}
+@media(max-width:540px){.article .benefit-notice{margin:26px 0 40px}.article .benefit-notice .benefit-photo{margin-bottom:18px}}
+
+/* 経済産業省採択事業：FVタイトル下の小さな左寄せ画像 */
+.article .intro-hero .intro-main-title{margin-bottom:12px;padding-bottom:0;border-bottom:0}
+.article .intro-meti-label{display:block;width:190px;max-width:54%;height:auto;margin:0 0 24px;object-fit:contain;object-position:left center}
+@media(max-width:540px){.article .intro-meti-label{width:160px;margin-bottom:20px}}
+
+
+/* Desktop and mobile: keep the original restrained layout, make body readable. */
+body{font-size:17px;line-height:1.85}
+.article .comparison-chart{margin:18px 0 26px}
+.article .comparison-chart img{border:0;border-radius:0;width:100%;height:auto}
+.article .benefit-notice .benefit-photo{width:90%;max-width:540px;margin:20px auto 24px;padding:0}
+.article .benefit-notice .benefit-photo img{display:block;width:100%;height:auto;border:0;object-fit:contain}
+.article .benefit-transition-lead{margin:44px 0 12px}
+.article .benefit-transition-lead br{display:block!important}
+.article .comparison-text>p{font-size:17px;line-height:1.85}
+@media(max-width:540px){
+ body{font-size:17px;line-height:1.8}
+ .article .comparison-text>p{font-size:17px}
+ .article .benefit-notice .benefit-photo{width:90%;max-width:90%;margin:18px auto 24px}
+ .article .benefit-transition-lead{font-size:18px;line-height:1.65}
+}
+
+.article .comparison-mobile-title{display:none}
+@media(max-width:540px){.article .comparison-mobile-title{display:block;font-size:18px;line-height:1.55;color:#163a60;padding:9px 10px;background:#e5eef7;border-left:5px solid #163a60;margin:16px 0 12px}}
+
+/* 目次：ファーストビューの説明文直前へ移動 */
+.article .intro-hero .section-index--top{margin:20px 0 26px;}
+@media(max-width:540px){.article .intro-hero .section-index--top{margin:18px 0 24px;}}
+
+
+/* 2026-11-12 FAQ罫線と利用者事例の2列表示 */
+.article .faq-section .faq-item:first-of-type { border-top: none; }
+.article .faq-section .faq-item:first-of-type { padding-top: 12px; }
+.article .video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px 18px;
+  overflow: visible;
+  scroll-snap-type: none;
+}
+.article .video-grid .video-card { width: 100%; min-width: 0; margin: 0; }
+.article .video-grid .video-card .video-frame { aspect-ratio: 16 / 9; }
+@media (max-width: 650px) {
+  .article .video-grid { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+}
+
+
+/* 2026-11-12 visual refinement based on reference municipal page */
+:root{
+  --blue:#1f5fa9;
+  --blue-deep:#1867b1;
+  --ink:#27384d;
+  --line:#c8d2df;
+  --line-soft:#d8e0ea;
+  --soft:#f1f4f8;
+  --soft-box:#f3f6fa;
+}
+body{
+  background:#fff;
+  color:var(--ink);
+  font-size:17px;
+  line-height:1.95;
+}
+a{color:#205fa6}
+.page{max-width:1140px;padding:0 22px}
+.site-header{border-top:2px solid #b8c5d4;border-bottom:1px solid #cfd7e1;background:#fff}
+.site-header__inner{padding-top:8px;padding-bottom:8px}
+.brand-image{width:235px}
+.breadcrumb,.mobile-header-breadcrumb{font-size:12px;color:#48627e}
+.article-meta{justify-content:flex-start;gap:18px;color:#5e6c7d;margin:10px 0 22px}
+.category-label{
+  background:#dce7f5;
+  color:#24384f;
+  font-weight:700;
+  padding:7px 10px;
+  border-radius:4px;
+  font-size:14px;
+}
+.content-layout{grid-template-columns:minmax(0,1fr) 260px;gap:32px}
+.intro-main-title{
+  font-size:31px;
+  line-height:1.45;
+  font-weight:800;
+  letter-spacing:0;
+  margin:0;
+  padding:16px 0 18px;
+  border-top:4px solid #2d67b5;
+  border-bottom:1px solid var(--line-soft);
+}
+.intro-eyebrow,.intro-guide-name{display:block}
+.intro-guide-name{margin-top:2px}
+.intro-meti-label{width:140px;max-width:40%;margin:22px 0 20px}
+.section-index--top{
+  background:#edf1f6;
+  border-radius:8px;
+  padding:14px 18px;
+  margin:8px 0 22px;
+}
+.section-index--top ul{display:grid;gap:6px}
+.section-index--top a{
+  font-size:16px;
+  font-weight:700;
+  color:#0c53a1;
+  text-decoration:none;
+}
+.section-index--top a:before{
+  content:'▼';
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:18px;
+  height:18px;
+  font-size:11px;
+  border-radius:50%;
+  background:#3a67b4;
+  color:#fff;
+  margin-right:10px;
+}
+.intro-concern__title{
+  font-size:25px;
+  line-height:1.6;
+  font-weight:800;
+  margin:0 0 8px;
+}
+.intro-concern__description{margin-bottom:22px}
+.intro-plain-copy p{margin-bottom:10px}
+.cta.cta--intro,
+.article .cta{
+  background:#f6faf7;
+  border:1px solid #b9d8c3;
+  padding:18px 20px;
+  margin:18px 0 34px;
+}
+.cta__title{font-size:14px;line-height:1.8;font-weight:700;color:#22364a}
+.cta__button,.cta-button{
+  border-radius:2px;
+  font-size:15px;
+  min-height:52px;
+}
+.section-transition-lead{
+  text-align:center;
+  font-size:19px;
+  line-height:1.65;
+  font-weight:800;
+  color:#263b51;
+  margin:36px 0 10px;
+}
+.section-transition-arrows{display:flex;flex-direction:column;align-items:center;gap:6px;margin:0 0 20px}
+.section-transition-arrows span{width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-top:10px solid #2e5da0}
+.article h2,
+.article>h2{
+  font-size:22px;
+  line-height:1.6;
+  margin:0 0 20px;
+  padding:0 0 11px 0;
+  border-bottom:2px solid #2d67b5;
+  color:#24384f;
+}
+.comparison-chart{margin:18px 0 24px}
+.article p{font-size:17px;line-height:1.95}
+.support-item,
+.article .support-item{padding:18px 0 28px;border-bottom:1px solid var(--line-soft)}
+.article .support-item h3{
+  font-size:20px;
+  border-left:4px solid #2d67b5;
+  padding-left:12px;
+  margin-bottom:12px;
+}
+.support-photo{margin:20px 0 0;max-width:540px}
+.benefit-transition-lead,.section-transition-lead.benefit-transition-lead{margin-top:44px}
+.article .benefit-notice{
+  margin:10px 0 48px;
+  padding:0;
+  border:0;
+  background:transparent;
+}
+.article .benefit-notice h2{margin-bottom:18px}
+.article .benefit-notice .benefit-photo{width:100%;max-width:540px;margin:0 0 20px}
+.article .benefit-notice .benefit-photo img{width:100%;height:auto}
+.article .benefit-notice table,
+.article .benefit-notice .benefit-summary{
+  margin-top:18px;
+}
+.article .faq-section{margin-top:48px}
+.article .faq-item{padding:16px 0;border-bottom:1px solid var(--line-soft)}
+.article .faq-question{margin-bottom:8px;font-size:18px;font-weight:700}
+.article .faq-answer{font-size:17px;line-height:1.9}
+.sidebar nav{
+  border:1px solid var(--line);
+  margin-bottom:18px;
+  background:#fff;
+}
+.sidebar h2{
+  background:#136cb6;
+  color:#fff;
+  padding:11px 14px;
+  font-size:15px;
+  font-weight:700;
+}
+.sidebar a{
+  padding:14px 14px;
+  border-top:1px solid var(--line);
+  color:#205fa6;
+  font-size:14px;
+  text-decoration:none;
+  line-height:1.55;
+}
+.sidebar a:before{content:'›';margin-right:10px;color:#3c6eaf;font-weight:700}
+.sidebar a:hover{background:#f5f8fb}
+.article .video-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:24px 24px;
+  margin:0 0 42px;
+}
+.article .video-grid .video-card{
+  border:1px solid var(--line);
+  padding:0;
+  background:#fff;
+}
+.article .video-grid .video-caption{font-size:17px;line-height:1.7;margin:14px 16px 8px}
+.article .video-grid .video-desc{font-size:14px;line-height:1.8;margin:0 16px 18px}
+.footer{background:#f5f7fa;border-top:1px solid var(--line)}
+@media (max-width:900px){
+  body{font-size:16px}
+  .page{padding:0 18px}
+  .content-layout{grid-template-columns:minmax(0,1fr)}
+  .intro-main-title{font-size:28px}
+  .article .video-grid{grid-template-columns:1fr}
+}
+@media (max-width:540px){
+  .category-label{font-size:13px}
+  .intro-main-title{font-size:24px;padding:14px 0 16px}
+  .intro-concern__title{font-size:21px}
+  .section-index--top{padding:14px 14px}
+  .section-index--top a{font-size:15px}
+  .article h2,.article>h2{font-size:20px}
+  .article p,.article .faq-answer{font-size:16px}
+  .article .support-item h3{font-size:18px}
+  .article .faq-question{font-size:17px}
+  .article .video-grid{grid-template-columns:1fr;gap:18px}
+}
+
+
+/* stronger reference match adjustments */
+body{background:#fff;color:#263547;font-size:16px;line-height:1.95}
+.page{max-width:1120px;padding:0 28px}
+.site-header{border-top:1px solid #cfd6df;border-bottom:1px solid #d7dde5;background:#fff}
+.site-header__inner{padding-top:0;padding-bottom:0}
+.mobile-header-meta,.page-top-meta{border-bottom:1px solid #d8dee7}
+.page-top-meta{padding-bottom:10px;margin-bottom:18px}
+.breadcrumb,.mobile-header-breadcrumb{gap:8px;font-size:11px;color:#56708a}
+.article-meta{margin:14px 0 26px;color:#617286;font-size:12px}
+.intro-category-row--below-breadcrumb{margin:16px 0 14px}
+.category-label{background:#d6e4f6;color:#26384b;padding:6px 10px;border-radius:4px;font-size:13px;font-weight:700}
+.content-layout{grid-template-columns:minmax(0,1fr) 260px;gap:32px}
+.intro-main-title{font-size:31px;font-weight:800;line-height:1.45;padding:16px 0 15px;border-top:4px solid #2b67b0;border-bottom:1px solid #d4dbe4;margin:0 0 18px}
+.intro-main-title .intro-eyebrow,.intro-main-title .intro-guide-name{display:block}.intro-main-title .intro-guide-name{margin-top:2px}
+.intro-meti-label{width:138px;max-width:100%;margin:10px 0 24px}
+.section-index--top{background:#eef2f7;border-radius:8px;padding:16px 18px;margin:0 0 18px}
+.section-index--top ul{gap:8px}.section-index--top a{font-size:15px;font-weight:700;line-height:1.65}
+.intro-concern{margin:10px 0 6px}.intro-concern__title{font-size:25px;line-height:1.55;margin-bottom:8px}.intro-concern__description{margin-bottom:18px}.intro-plain-copy p{margin-bottom:10px}
+.cta.cta--intro,.article .cta{margin:24px 0 38px;padding:22px 16px 18px;background:#f6faf7;border:1px solid #cddccf}
+.section-transition-lead{margin:34px 0 10px;font-size:18px;line-height:1.7;color:#24384d}.section-transition-arrows{margin:0 0 28px}
+.article>section,#support,#about,#story,#interview-videos,.article>h2{margin-top:52px}
+.article h2,.article>h2{font-size:22px;line-height:1.55;padding-bottom:11px;border-bottom:2px solid #2e67b3;margin-bottom:22px}
+.comparison-chart{margin:18px 0 22px}.comparison-chart img{border:0;border-radius:0;background:transparent}
+.article p{font-size:16px;line-height:1.95}
+.article .support-item{padding:16px 0 26px;border-bottom:1px solid #d6dee8}.article .support-item h3{font-size:19px;border-left:4px solid #2a67b2;padding-left:11px;margin-bottom:12px}.support-photo{margin-top:18px}
+.sidebar nav{border:1px solid #cad3de;margin-bottom:18px;background:#fff}.sidebar h2{background:#176db7;padding:12px 14px;font-size:14px}.sidebar a{padding:13px 14px;border-top:1px solid #d4dce6;font-size:13px;line-height:1.55}
+.article .benefit-notice{margin:8px 0 46px}.article .benefit-notice h2{margin-bottom:20px}.article .benefit-notice .benefit-photo{margin:0 0 20px;max-width:540px}
+.article .faq-section{margin-top:50px}.article .faq-item{padding:18px 0;border-bottom:1px solid #d6dee8}.article .faq-question{font-size:17px;line-height:1.75;margin-bottom:8px}.article .faq-answer{font-size:16px;line-height:1.9}
+.article .video-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 24px;margin:0 0 44px}.article .video-grid .video-card{border:1px solid #d1d9e3;background:#fff}.article .video-grid .video-caption{font-size:16px;margin:14px 16px 8px}.article .video-grid .video-desc{font-size:13px;line-height:1.8}
+.footer{background:#f6f8fb;border-top:1px solid #d6dde6}
+@media (max-width:900px){.page{padding:0 18px}.content-layout{grid-template-columns:minmax(0,1fr)}.intro-main-title{font-size:27px}.article .video-grid{grid-template-columns:1fr}}
+@media (max-width:540px){body{font-size:15px}.page{padding:0 16px}.intro-main-title{font-size:23px;line-height:1.5}.intro-concern__title{font-size:21px}.section-index--top{padding:14px}.section-index--top a{font-size:15px}.article h2,.article>h2{font-size:20px}.article p,.article .faq-answer{font-size:15.5px}.article .video-grid{grid-template-columns:1fr;gap:18px}}
+
+/* 2026-11-12: 読みやすい文字サイズ／目次の圧縮／参考画像の青へ統一 */
+:root {
+  --reference-navy: #082f60;
+  --reference-blue: #086bb6;
+  --reference-line: #c5d4e4;
+}
+body { font-size: 18px; line-height: 1.85; }
+.article p:not(.article-meta):not(.benefit-note):not(.cta-benefit) {
+  font-size: 18px;
+  line-height: 1.85;
+}
+.article .intro-main-title .intro-guide-name {
+  color: var(--reference-navy);
+  font-size: 37px;
+  line-height: 1.4;
+}
+.article .intro-main-title .intro-eyebrow { font-size: 24px; line-height: 1.45; }
+.article .intro-concern__title { font-size: 25px; }
+.article h2, .article > h2 { color: var(--reference-navy); }
+.article .support-item h3 { color: var(--reference-navy); }
+.section-transition-lead { color: var(--reference-navy); }
+
+/* 目次: 文字は大きく、行間と上下のスペースはコンパクト */
+.article .intro-hero .section-index--top {
+  background: #eef2f7;
+  border-radius: 5px;
+  padding: 10px 17px;
+  margin: 12px 0 19px;
+}
+.article .section-index--top ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+.article .section-index--top li { margin: 0; padding: 0; }
+.article .section-index--top a {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #0756a2;
+  padding: 5px 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.article .section-index--top a::before {
+  width: 17px;
+  height: 17px;
+  font-size: 10px;
+  margin-right: 9px;
+  background: #2f69b6;
+}
+
+/* 福岡市サイト風の右カラム: 色を揃え、角を立て、細い区切り線で整理 */
+.content-layout { grid-template-columns: minmax(0,1fr) 260px; gap: 32px; }
+.side-column .side-box {
+  border: 1px solid #b7cce1;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0 0 18px;
+  background: #fff;
+}
+.side-column .side-box h2 {
+  background: var(--reference-blue);
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+  padding: 12px 13px;
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.45;
+}
+.side-column .side-box a {
+  display: block;
+  padding: 13px 11px;
+  border-top: 1px solid #d3deea;
+  background: #fff;
+  color: #064f96;
+  font-size: 15px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.side-column .side-box a::before {
+  content: '›';
+  color: #076cb9;
+  margin-right: 8px;
+  font-weight: 700;
+}
+.side-column .side-box a:hover,
+.side-column .side-box a:focus-visible { background: #eef5fb; text-decoration: underline; }
+
+/* SP: 読みやすさを維持し、改行を増やしすぎない */
+@media (max-width: 900px) {
+  .content-layout { grid-template-columns: minmax(0,1fr); }
+}
+@media (max-width: 540px) {
+  body { font-size: 17px; }
+  .article p:not(.article-meta):not(.benefit-note):not(.cta-benefit) {
+    font-size: 17px; line-height: 1.85;
+  }
+  .article .intro-main-title .intro-guide-name {
+    font-size: clamp(27px, 7vw, 33px);
+  }
+  .article .intro-main-title .intro-eyebrow { font-size: 20px; }
+  .article .intro-hero .section-index--top {
+    padding: 9px 12px; margin: 10px 0 18px;
+  }
+  .article .section-index--top a { font-size: 17px; padding: 5px 0; line-height: 1.4; }
+}
+
+/* 経済産業省採択事業ラベル：縮小、上下余白を圧縮 */
+.article .intro-hero .intro-main-title { margin-bottom: 6px; }
+.article .intro-hero .intro-meti-label { display:block; width: 108px; max-width: 38%; height: auto; margin: 0 0 9px; }
+.article .intro-hero .section-index--top { margin-top: 0; }
+@media (max-width: 540px) {
+  .article .intro-hero .intro-main-title { margin-bottom: 5px; }
+  .article .intro-hero .intro-meti-label { width: 96px; max-width: 38%; margin: 0 0 8px; }
+}
+
+/* 2026-11-12: 案内文を拡大・記事内の画像を中央配置 */
+.article .section-transition-lead,
+.article .section-transition-lead.benefit-transition-lead {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.65;
+  text-align: center;
+  color: #082f60;
+  margin-left: auto;
+  margin-right: auto;
+}
+.article .section-transition-line { display: block; }
+/* 既存の画像幅は維持し、配置のみ中央に。 */
+.article img.intro-meti-label,
+.article img.support-photo,
+.article img.final-photo,
+.article .comparison-chart img,
+.article .benefit-photo img,
+.article .support-item img,
+.article .final-photo img,
+.article .case-visual img,
+.article .coach_box img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.article .comparison-chart,
+.article .benefit-photo,
+.article .case-visual,
+.article .final-photo { margin-left: auto; margin-right: auto; }
+@media (max-width: 540px) {
+  .article .section-transition-lead,
+  .article .section-transition-lead.benefit-transition-lead {
+    font-size: 21px;
+    line-height: 1.65;
+  }
+}
+
+/* 経済産業省採択事業ラベルを一回り拡大（中央揃え・余白は維持） */
+.article .intro-hero img.intro-meti-label { width:130px; max-width:42%; height:auto; margin-left:auto; margin-right:auto; }
+@media (max-width:540px) { .article .intro-hero img.intro-meti-label { width:115px; max-width:42%; } }
+
+/* 無料の「転職支援ナビ」を目次リンクと同じ青に統一 */
+.article .intro-main-title .intro-guide-name { color: #0756a2; }
+
+
+/* 2026-11-12: 見出しの文字色を黒で統一（青い罫線は維持） */
+.article h1,
+.article h1 *,
+.article h2,
+.article h3,
+.article h4,
+.article .intro-main-title .intro-guide-name,
+.article .intro-main-title .intro-eyebrow,
+.article .intro-concern__title,
+.article .section-transition-lead,
+.article .section-transition-lead *,
+.article .cta__title,
+.article .faq-question,
+.side-column .side-box h2 {
+  color: #111111 !important;
+}
+/* 青帯上の見出しも黒で読めるよう、帯を淡色に変更 */
+.side-column .side-box h2 {
+  background: #e9f1fa !important;
+  border-bottom: 1px solid #bdcee0;
+}
+
+/* FAQ回答の接頭文字を削除し、小見出しを本文より少し大きく */
+.article .support-item h3,
+.article .usage-steps h3,
+.article .faq-section .faq-question {font-size:21px;line-height:1.65;font-weight:700;}
+@media(max-width:540px){
+ .article .support-item h3,
+ .article .usage-steps h3,
+ .article .faq-section .faq-question {font-size:19px;line-height:1.65;}
+}
+
+
+/* 経済産業省採択事業：2回り拡大して左寄せ */
+.article .intro-hero img.intro-meti-label {
+  display:block;
+  width:190px;
+  max-width:60%;
+  height:auto;
+  margin:0 0 9px 0;
+}
+@media (max-width:540px) {
+  .article .intro-hero img.intro-meti-label {
+    width:170px;
+    max-width:60%;
+    margin:0 0 8px 0;
+  }
+}
+
+
+/* 2026-11-12 タイトルの上線を太い青線にして、上部余白を圧縮 */
+.page > .page-top-meta { margin-bottom: 8px; }
+.page > .article-meta { margin-bottom: 8px; }
+.article .intro-hero .intro-main-title {
+  border-top: 5px solid #2868b4;
+  padding-top: 8px;
+  margin-top: 0;
+}
+@media (max-width: 540px) {
+  .page > .page-top-meta { margin-bottom: 5px; padding-bottom: 6px; }
+  .article .intro-hero .intro-main-title { border-top-width: 5px; padding-top: 7px; }
+}
+
+/* 本文中の強調テキストはすべて黒に統一。リンク・ボタンの配色は維持 */
+.article p strong, .article p b, .article li strong, .article li b { color:#111111 !important; }
+
+/* 2026-11-12 本文テキストを黒に統一。リンク・ボタン・見出し帯の配色は維持 */
+.article p,
+.article li,
+.article dt,
+.article dd,
+.article td,
+.article th,
+.article figcaption,
+.article .faq-answer,
+.article .video-desc,
+.article .intro-concern__description,
+.article .benefit-note,
+.article .cta-benefit {
+  color: #111111 !important;
+}
+/* 上記の子要素であるリンクは既存の青を維持 */
+.article p a:not(.cta__button),
+.article li a,
+.article figcaption a {
+  color: #0756a2 !important;
+}
+
+
+/* 見出し階層を明確化：大見出しの指定サイズを変えず、子見出しのみ縮小 */
+.article h3,
+.article .support-item h3,
+.article .usage-steps h3,
+.article .faq-section .faq-question {
+  font-size: 20px;
+  line-height: 1.65;
+  font-weight: 700;
+}
+@media (max-width: 540px) {
+  .article h3,
+  .article .support-item h3,
+  .article .usage-steps h3,
+  .article .faq-section .faq-question {
+    font-size: 18px;
+    line-height: 1.65;
+  }
+}
+
+/* Supervisor profile: subtle neutral-gray background */
+.article .writer-box { background-color: #f5f5f5; }
+
+
+/* 右カラム：福岡労働局の参考画像に合わせた情報ボックス */
+.side-column .side-box {
+  border: 1px solid #b8c3d1;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: none;
+  margin: 0 0 27px;
+}
+.side-column .side-box h2 {
+  margin: 0 !important;
+  padding: 12px 15px !important;
+  border: 0 !important;
+  border-radius: 0;
+  font-size: 17px !important;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.side-column .side-box:first-child h2 {
+  background: #0851c9 !important;
+  color: #fff !important;
+  border-bottom: 0 !important;
+}
+.side-column .side-box:nth-child(2) {
+  border-top: 4px solid #0851c9;
+}
+.side-column .side-box:nth-child(2) h2 {
+  background: #edf0f5 !important;
+  color: #202936 !important;
+}
+.side-column .side-box nav {
+  display: block;
+  background: #fff;
+}
+.side-column .side-box a {
+  position: relative;
+  display: block;
+  padding: 14px 13px 14px 36px !important;
+  margin: 0;
+  border-top: 1px solid #c5cedb;
+  background: #fff !important;
+  color: #064a9b !important;
+  font-size: 14px !important;
+  line-height: 1.6;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+  transition: none !important;
+}
+.side-column .side-box a::before {
+  content: '›' !important;
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  border-radius: 50%;
+  background: #0759c6;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  margin: 0 !important;
+}
+.side-column .side-box:nth-child(2) a::before {
+  content: '›' !important;
+  color: #78889c;
+  background: transparent;
+  font-size: 17px;
+}
+.side-column .side-box a:hover {
+  color: #064a9b !important;
+  background: #fff !important;
+  text-decoration: none !important;
+}
+.side-column .side-box a:focus-visible {
+  background: #fff !important;
+  text-decoration: none !important;
+  outline: 2px solid #0759c6;
+  outline-offset: -3px;
+}
+
+
+/* 右カラムの矢印を上下左右中央に正確に配置 */
+.side-column .side-box a::before {
+  content: '' !important;
+  left: 12px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  border: 0;
+  border-radius: 50%;
+  background: #0759c6;
+}
+.side-column .side-box a::after {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 50%;
+  box-sizing: border-box;
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: translate(-50%, -50%) rotate(45deg);
+  pointer-events: none;
+}
+.side-column .side-box:nth-child(2) a::before {
+  background: transparent;
+}
+.side-column .side-box:nth-child(2) a::after {
+  border-color: #78889c;
+}
+
+
+/* 2026-11-12: 特集直下の青線／経産省画像／CTA／インタビュー説明文 */
+.page > .page-top-meta {
+  border-bottom: 5px solid #2868b4 !important;
+  padding-bottom: 8px !important;
+  margin-bottom: 6px !important;
+}
+/* タイトルの直上にあった重複の青線を廃止 */
+.article .intro-hero .intro-main-title {
+  border-top: 0 !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+.page > .article-meta { margin-bottom: 6px !important; }
+/* 経済産業省採択事業：小幅に縮小し左寄せを維持 */
+.article .intro-hero img.intro-meti-label {
+  width: 170px !important;
+  max-width: 60%;
+  margin: 0 0 8px 0 !important;
+}
+/* 受け取りボタン内の文字を読みやすく拡大 */
+.article .cta .cta__button {
+  font-size: 19px !important;
+  line-height: 1.5;
+}
+/* 利用者事例インタビュー：説明本文だけをコンパクトに */
+.article .video-grid .video-card p.video-desc {
+  font-size: 14px !important;
+  line-height: 1.75 !important;
+}
+@media(max-width:540px){
+  .page > .page-top-meta { padding-bottom: 6px !important; margin-bottom: 5px !important; }
+  .article .intro-hero img.intro-meti-label { width: 150px !important; max-width: 65%; }
+  .article .cta .cta__button { font-size: 17px !important; }
+  .article .video-grid .video-card p.video-desc { font-size: 13px !important; }
+}
+
+/* FAQ question label matches the blue used for numbered steps */
+.article .faq-question .faq-q-mark { color: #2d6096 !important; font-weight: 700; }
+
+/* SPのみ：ロゴ下の余白／相談写真／監修経歴のサイズを調整 */
+@media (max-width:540px) {
+  /* ロゴからパンくず・更新日までの余白を最小限に */
+  .site-header .site-header__inner {padding-bottom:3px !important;}
+  .site-header .brand-row {margin-bottom:0 !important;padding-bottom:0 !important;}
+  .site-header .mobile-header-meta {margin-top:2px !important;padding-top:4px !important;}
+  .site-header .mobile-header-dates {margin-top:2px !important;}
+  /* 個別相談会の画像だけを少し小さめ・中央寄せに */
+  .article .benefit-notice .benefit-photo {width:82% !important;max-width:360px !important;margin:12px auto 18px !important;}
+  .article .benefit-notice .benefit-photo img {width:100%;height:auto;}
+  /* 監修・取材協力の経歴だけ文字を小さく。名前は読みやすさを維持 */
+  .article .writer-box .writer-box__list,
+  .article .writer-box .writer-box__list li {font-size:13px !important;line-height:1.7 !important;}
+  .article .writer-box .writer-box__name {font-size:19px !important;line-height:1.5 !important;}
+  .article .writer-box .writer-box__label {font-size:12px !important;}
+}
+
+
+/* SPのみ: 個別相談画像をセミナー・説明会画像と同じ表示幅に統一 */
+@media (max-width:540px) {
+  .article .benefit-notice .benefit-photo {
+    width: 90% !important;
+    max-width: 90% !important;
+    margin: 18px auto 24px !important;
+    padding: 0 !important;
+  }
+  .article .benefit-notice .benefit-photo img {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+  /* 経歴の3項目だけを落ち着いたグレーに。見出し・名前は黒のまま */
+  .article .writer-box .writer-box__list,
+  .article .writer-box .writer-box__list li {
+    color: #666666 !important;
+  }
+}
+
+/* 個別相談会の画像をセミナー写真と同じ表示幅で中央配置（PC/SP） */
+.article .benefit-notice .benefit-photo {
+  display:block;
+  width:90% !important;
+  max-width:90% !important;
+  margin:20px auto 24px !important;
+  padding:0 !important;
+}
+.article .benefit-notice .benefit-photo img {
+  display:block;
+  width:100% !important;
+  height:auto !important;
+  object-fit:contain;
+}
+@media (max-width:540px){
+  .article .benefit-notice .benefit-photo{margin:18px auto 24px !important;}
+}
+
+/* PC: 個別相談会写真を他の紹介写真に近い幅へ縮小、中央配置 */
+@media (min-width:541px) {
+  .article .benefit-notice .benefit-photo {
+    width: 90% !important;
+    max-width: 540px !important;
+    margin: 20px auto 24px !important;
+  }
+  .article .benefit-notice .benefit-photo img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+
+/* 紹介写真の横幅を「キャリアの棚卸し」に統一（PC・SP） */
+.article .support-item img.support-photo,
+.article .benefit-notice .benefit-photo,
+.article img.final-photo {
+  display: block;
+  box-sizing: border-box;
+  width: 90% !important;
+  max-width: 540px !important;
+  height: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.article .benefit-notice .benefit-photo img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Tighten the gap below the comparison image on mobile only. */
+@media(max-width:540px){.article .comparison-chart{margin-bottom:8px}.article .comparison-chart+p{margin-top:0}}
+
+/* Full viewport comparison image on smartphones. */
+@media(max-width:540px){
+ .article .comparison-text .comparison-chart{position:relative;left:50%;width:100vw;max-width:none;margin-left:-50vw;margin-right:0}
+ .article .comparison-text .comparison-chart img{width:100%;max-width:100%;height:auto}
+}
+
+/* 2026-11-13: 冒頭の目次を一回り小さく */
+.article .section-index--top a { font-size: 16px; }
+@media (max-width: 540px) { .article .section-index--top a { font-size: 15px; } }
+/* 無料枠の注釈を見出しの直下に配置 */
+.article .benefit-notice h2 { margin-bottom: 8px; }
+.article .benefit-notice .benefit-note { margin: 0 0 16px; }
+
+/* Side navigation is intentionally display-only. */
+.side-column nav a { pointer-events: none; cursor: default; }
+
+/* 2026-11-13: 注釈を見出しのすぐ下、青い罫線の上へ */
+.article .benefit-notice h2 { border-bottom: 0; padding-bottom: 0; margin-bottom: 6px; }
+.article .benefit-notice .benefit-note { color: #53606d; font-size: 13px; line-height: 1.75; border-bottom: 2px solid #2e67b3; padding-bottom: 11px; margin: 0 0 20px; }
+
+/* 2026-11-13: 「特集」を冒頭目次と同じ青に統一 */
+.page-top-meta > .intro-category-row--below-breadcrumb .category-label { color: #0756a2; }
+
+/* ご利用の流れ：比較表画像と同じ表示幅。PCは本文幅、SPは画面幅。 */
+.article .usage-guide-chart{width:100%;max-width:100%;margin:18px auto 26px}
+.article .usage-guide-chart img{display:block;width:100%;max-width:100%;height:auto;margin:0 auto;border:0;border-radius:0;background:transparent}
+@media(max-width:540px){
+ .article .usage-guide-chart{position:relative;left:50%;width:100vw;max-width:none;margin-left:-50vw;margin-right:0}
+ .article .usage-guide-chart img{width:100%;max-width:100%;height:auto}
+}
+
+/* Keep the intro lead and its following sentence in one paragraph. */
+.article .intro-concern__description .intro-concern__title { display:inline; margin:0; font-weight:800; }
+
+/* SP: ご利用の流れの画像を画面幅95%にし、上下余白を縮小 */
+@media (max-width: 540px) {
+  .article .usage-guide-chart { width: 95vw; max-width: none; margin: 8px 0 12px -47.5vw; left: 50%; }
+  .article .usage-guide-chart img { width: 100%; height: auto; }
+}
+
+/* 2026-11-13: Keep the opening emphasized phrase the same size as its surrounding sentence. */
+.article .intro-concern__description > .intro-concern__title {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: 700;
+}
+
+/* 2026-11-13: FVの2行を従来の準備見出しと同サイズに統一 */
+.article .intro-main-title .intro-eyebrow,
+.article .intro-main-title .intro-guide-name{font-size:23px;line-height:1.5}
+@media(max-width:540px){.article .intro-main-title .intro-eyebrow,.article .intro-main-title .intro-guide-name{font-size:20px}}
+
+/* 2026-11-13: FV見出しを少し拡大し行間を詰める */
+.article .intro-main-title .intro-eyebrow,
+.article .intro-main-title .intro-guide-name {
+  font-size: 27px;
+  line-height: 1.28;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media (max-width: 540px) {
+  .article .intro-main-title .intro-eyebrow,
+  .article .intro-main-title .intro-guide-name {
+    font-size: 23px;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+/* 2026-11-13: FV見出しの指定文字サイズ（行間は前回の調整を維持） */
+.article .intro-main-title .intro-eyebrow,
+.article .intro-main-title .intro-guide-name { font-size: 30px; }
+@media (max-width: 540px) {
+  .article .intro-main-title .intro-eyebrow,
+  .article .intro-main-title .intro-guide-name { font-size: 26px; }
+}
+
+/* 2026-11-13: SPのみ、冒頭見出しの上側に余白を追加して上下の見た目を整える。 */
+@media (max-width: 540px) {
+  .article .intro-hero .intro-main-title {
+    margin-top: 20px !important;
+  }
+}
+
+/* Tighter spacing around the ministry label on mobile. */
+@media(max-width:540px){
+ .article .intro-hero .intro-main-title{margin-bottom:2px !important;padding-bottom:4px}
+ .article .intro-hero img.intro-meti-label{margin-top:0 !important;margin-bottom:3px !important}
+}
+
+/* Keep the two opening sentences continuous on desktop. */
+.article .intro-concern__description strong,.article .intro-plain-copy strong{font-weight:700}
+@media(min-width:541px){
+ .article .intro-hero .intro-concern,.article .intro-hero .intro-plain-copy,
+ .article .intro-hero .intro-concern__description,.article .intro-hero .intro-plain-copy p{display:inline;margin:0;padding:0}
+}
+
+/* Desktop sentence break without adding paragraph spacing. */
+@media(min-width:541px){.article .intro-hero .intro-plain-copy::before{content:"\A";white-space:pre}}
+
+/* 2026-11-13: 個別相談会の見出しを目次と同じ青に統一。以前のh2一括黒指定を上書き */
+.article .benefit-notice h2 { color: #0756a2 !important; }
+
+
+/* 2026-11-13: ご利用の流れをスマホでは横長カード4枚の縦並びに変更 */
+.usage-guide-mobile { display: none; margin: 16px 0 24px; }
+.usage-step-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.usage-step-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 140px;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  border: 2px solid #cfe1f1;
+  border-radius: 0;
+  background: #fff;
+}
+.usage-step-card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 0;
+}
+.usage-step-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 104px;
+  min-height: 40px;
+  padding: 0 16px;
+  margin-bottom: 18px;
+  border-radius: 999px;
+  background: #f6a000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: .02em;
+}
+.usage-step-card__body { min-width: 0; }
+.usage-step-card__body h3 {
+  margin: 0 0 18px;
+  color: #0756a2;
+  font-size: 28px;
+  line-height: 1.25;
+  font-weight: 800;
+}
+.article .usage-step-card__body p {
+  margin: 0;
+  color: #5e6777;
+  font-size: 17px;
+  line-height: 1.65;
+  font-weight: 700;
+}
+.usage-step-card__illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  min-height: 100%;
+}
+.usage-step-card__illustration img {
+  display: block;
+  width: 100%;
+  max-width: 132px;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+@media (max-width: 540px) {
+  .article .usage-guide-chart--desktop { display: none; }
+  .usage-guide-mobile { display: block; }
+  .usage-step-list { gap: 12px; }
+  .usage-step-card {
+    grid-template-columns: minmax(0, 1fr) 118px;
+    gap: 14px;
+    padding: 16px 14px;
+  }
+  .usage-step-badge {
+    min-width: 102px;
+    min-height: 38px;
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  .usage-step-card__body h3 {
+    margin-bottom: 14px;
+    font-size: 25px;
+  }
+  .article .usage-step-card__body p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .usage-step-card__illustration img { max-width: 108px; }
+}
+@media (max-width: 390px) {
+  .usage-step-card {
+    grid-template-columns: minmax(0, 1fr) 98px;
+    gap: 10px;
+    padding: 14px 10px;
+  }
+  .usage-step-badge {
+    min-width: 92px;
+    min-height: 34px;
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+  .usage-step-card__body h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .article .usage-step-card__body p {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+  .usage-step-card__illustration img { max-width: 90px; }
+}
+
+/* 2026-11-13: ファーストビュー見出し 3行＋根拠注釈 */
+.article .intro-main-title .intro-stat-line {
+  display: block;
+  margin: 0;
+  color: #194c78;
+  font-size: 30px;
+  line-height: 1.28;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+.article .intro-main-title .intro-stat-line sup {
+  font-size: .55em;
+  vertical-align: super;
+  line-height: 0;
+}
+.article .intro-hero .intro-main-title {
+  margin-bottom: 4px !important;
+  padding-bottom: 0 !important;
+  border-bottom: 0 !important;
+}
+.article .intro-hero .intro-stat-note {
+  margin: 0 0 10px;
+  color: #555;
+  font-size: 10px;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 540px) {
+  .article .intro-main-title .intro-stat-line { font-size: 26px; line-height: 1.3; }
+  .article .intro-hero .intro-stat-note { font-size: 10px; line-height: 1.55; margin-bottom: 8px; }
+}
+
+/* 冒頭3行の見出しは変更前と同じサイズに復元し、注釈をCTA注釈と統一 */
+.article .intro-main-title .intro-eyebrow,
+.article .intro-main-title .intro-stat-line,
+.article .intro-main-title .intro-guide-name { font-size: 30px; }
+.article .intro-hero .intro-stat-note { font-size: 12px; line-height: 1.8; }
+@media (max-width: 540px) {
+  .article .intro-main-title .intro-eyebrow,
+  .article .intro-main-title .intro-stat-line,
+  .article .intro-main-title .intro-guide-name { font-size: 26px; }
+  .article .intro-hero .intro-stat-note { font-size: 12px; line-height: 1.8; }
+}
+
+/* Heading footnote marker size: desktop and mobile */
+.article .intro-main-title .intro-stat-line sup { font-size: 12px; }
+
+/* 注釈本文: PC・SPともに必ず12pxで表示する */
+.article .intro-hero p.intro-stat-note {
+  font-size: 12px !important;
+  line-height: 1.8;
+}
+@media (max-width: 540px) {
+  .article .intro-hero p.intro-stat-note { font-size: 12px !important; }
+}
+
+/* 経済産業省採択事業ラベルの上下余白をさらに詰める（PC/SP） */
+.article .intro-hero p.intro-stat-note {
+  margin-bottom: 2px !important;
+}
+.article .intro-hero img.intro-meti-label {
+  margin-top: 0 !important;
+  margin-bottom: 2px !important;
+}
+.article .intro-hero .section-index--top {
+  margin-top: 0 !important;
+}
+@media (max-width: 540px) {
+  .article .intro-hero p.intro-stat-note { margin-bottom: 1px !important; }
+  .article .intro-hero img.intro-meti-label { margin-bottom: 1px !important; }
+}
+
+/* SP：ご利用の流れのSTEP・小見出し・本文を他の本文階層に合わせる */
+@media (max-width: 540px) {
+  .article .usage-guide-mobile .usage-step-badge {
+    font-size: 14px;
+    font-weight: 400;
+    min-width: 76px;
+    min-height: 28px;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0;
+  }
+  .article .usage-guide-mobile .usage-step-card__body h3 {
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+  .article .usage-guide-mobile .usage-step-card__body p {
+    font-size: 16px;
+    line-height: 1.65;
+    font-weight: 400;
+    margin: 0;
+  }
+}
+
+/* Keep the statistical footnote immediately below the first CTA. */
+.article .cta--intro{margin-bottom:6px !important}
+.article p.intro-stat-note{font-size:11px !important;font-weight:400 !important;line-height:1.6 !important;color:#858585 !important;margin:0 0 24px !important;padding:0 4px;text-align:left}
+@media(max-width:540px){.article p.intro-stat-note{font-size:10px !important}}
+
+.article p.intro-stat-note{text-align:right}
+
+/* Tighten comparison spacing, including the blank strip inside the image. */
+.article .comparison-text .comparison-chart{margin-bottom:24px;overflow:hidden}
+.article .comparison-text .comparison-chart img{margin-bottom:-5.5%;clip-path:inset(0 0 8% 0)}
+.article .comparison-text .comparison-chart+p{margin-top:0}
+
+/* Restore desktop headline size and increase mobile by 2px. */
+.article .intro-main-title .intro-stat-line,.article .intro-main-title .intro-guide-name{font-size:30px}
+@media(max-width:540px){.article .intro-main-title .intro-stat-line,.article .intro-main-title .intro-guide-name{font-size:25px}}
+
+.article p.interview-results-note{font-size:12px !important;line-height:1.7;color:#666;margin:0 0 20px}
